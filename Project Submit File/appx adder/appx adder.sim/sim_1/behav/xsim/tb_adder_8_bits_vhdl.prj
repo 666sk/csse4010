@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../appx adder.srcs/sources_1/new/adder_8_bits.vhd" \
+"../../../../appx adder.srcs/sources_1/new/adder_four_bits.vhd" \
+"../../../../appx adder.srcs/sources_1/new/adder_four_bits2.vhd" \
+"../../../../appx adder.srcs/sources_1/new/one-bit-adder.vhd" \
+"../../../../appx adder.srcs/sources_1/new/onebitadder_accurate.vhd" \
+"../../../../appx adder.srcs/sim_1/new/tb_adder_8_bits.vhd" \
+
+# Do not sort compile order
+nosort
